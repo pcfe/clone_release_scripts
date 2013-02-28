@@ -32,9 +32,9 @@
 # Note, adding two days seems to get the correct errata, otherwise some released on or
 # very near the GA date get missed - to be investigated!
 RHEL5_DATES=( 20070316 20071109 20080523 20090122 20090904 20100401 20110114 20110723 )
-# RHEL6_DATES GA       6.1      6.2
-#RHEL6_DATES=( 20101110 20110519 20111206 )
-RHEL6_DATES=( 20101112 20110521 20111208 )
+# RHEL6_DATES GA       6.1      6.2      6.3      6.4
+#RHEL6_DATES=( 20101110 20110519 20111206 20120621 20130221)
+RHEL6_DATES=( 20101112 20110521 20111208 20120623 20130223)
 
 exit_usage()
 {
