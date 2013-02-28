@@ -31,12 +31,15 @@
 #RHEL5_DATES=( 20070314 20071107 20080521 20090120 20090902 20100330 20110112 20110721 20120220 20130107 )
 # Note, adding two days seems to get the correct errata, otherwise some released on or
 # very near the GA date get missed - to be investigated!
+# Testing with 6.3 on an Sat 5.5.0 showed that the exact date is needed. Adjusted cutoff dates for 5.8, 5.9, 6.3 and 6.4
+# to the exact dates from access.redhat.com. But bear in mind that so far only 6.3 was tested.
+# your feedback is appreciated and requested. pcfe, 2013-02-28
 # dates should be taken from https://access.redhat.com/knowledge/articles/3078
 # alternatively you could try http://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
-RHEL5_DATES=( 20070316 20071109 20080523 20090122 20090904 20100401 20110114 20110723 20120222 20130109 )
+RHEL5_DATES=( 20070316 20071109 20080523 20090122 20090904 20100401 20110114 20110721 20120220 20130107 )
 # RHEL6_DATES GA       6.1      6.2      6.3      6.4
 #RHEL6_DATES=( 20101110 20110519 20111206 20120620 20130221 )
-RHEL6_DATES=( 20101112 20110521 20111208 20120622 20130223 )
+RHEL6_DATES=( 20101112 20110521 20111208 20120620 20130221 )
 
 exit_usage()
 {
