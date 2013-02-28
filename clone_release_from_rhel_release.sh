@@ -31,7 +31,8 @@
 #RHEL5_DATES=( 20070314 20071107 20080521 20090120 20090902 20100330 20110112 20110721 20120220 20130107 )
 # Note, adding two days seems to get the correct errata, otherwise some released on or
 # very near the GA date get missed - to be investigated!
-# dates taken from http://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
+# dates should be taken from https://access.redhat.com/knowledge/articles/3078
+# alternatively you could try http://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
 RHEL5_DATES=( 20070316 20071109 20080523 20090122 20090904 20100401 20110114 20110723 20120222 20130109 )
 # RHEL6_DATES GA       6.1      6.2      6.3      6.4
 #RHEL6_DATES=( 20101110 20110519 20111206 20120620 20130221 )
